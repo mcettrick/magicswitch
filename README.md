@@ -24,7 +24,7 @@ Requirements:
 
 Java 1.8
 
-## Quick Start:
+## Quick Start
 
 -- Install scratch 2.0 offine editor here: https://scratch.mit.edu/scratch2download/
    Requires adobe air.
