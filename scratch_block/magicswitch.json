@@ -1,0 +1,9 @@
+{
+ "extensionName": "MagicSwitch",
+ "extensionPort": 8080,
+ "blockSpecs": [
+  [" ", "MagicSwitch", "toggle"],
+  ["b", "MagicSwitch", "status"]
+ ]
+}
+
