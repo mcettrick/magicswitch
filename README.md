@@ -26,35 +26,31 @@ Java 1.8
 
 ## Quick Start
 
--- Install scratch 2.0 offine editor here: https://scratch.mit.edu/scratch2download/
-   Requires adobe air.
+Install scratch 2.0 offine editor here: https://scratch.mit.edu/scratch2download/
+Requires adobe air.
 
--- Plug in the USB relay
+Plug in the USB relay
    
--- start the relay service. It runs on port 8080. Run this command from the magicswitch directory:
-   java -jar magicswitch.jar
+start the relay service. It runs on port 8080. Run this command from the magicswitch directory:
+java -jar magicswitch.jar
 
--- optionally test by browsing to this address. Each time this page is loaded it will toggle the switch on / off
-   http://localhost:8080/toggle
+optionally test by browsing to this address. Each time this page is loaded it will toggle the switch on / off
+http://localhost:8080/toggle
 
--- In scratch, shift-click on File, then Import Experimental HTTP Extension. Browse to magicswitch/scratch_block/magicswitch.json.
+In scratch, shift-click on File, then Import Experimental HTTP Extension. Browse to magicswitch/scratch_block/magicswitch.json.
 
--- The block will be available under More Blocks, named "MagicSwitch".
+The block will be available under More Blocks, named "MagicSwitch".
 
 ## Building from source
 
--- Install maven
+Install maven
 
--- In the magicswitch/server directory:
-   mvn clean package
+In the magicswitch/server directory:
+mvn clean package
 
--- If the switch isn't plugged in:
-   mvn clean package -DskipTests
+If the switch isn't plugged in:
+mvn clean package -DskipTests
 
-   This will skip the tests, which need the switch to show up as
+This will skip the tests, which need the switch to show up as
 
-   /dev/ttyUSB0
-
-
-
-
+/dev/ttyUSB0
